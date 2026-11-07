@@ -1,28 +1,28 @@
 class GacRedux < Formula
   desc "Short-lived AWS credentials through IAM Identity Center"
   homepage "https://github.com/virtualmadden/gac-redux"
-  version "0.2.0-beta.2"
+  version "0.3.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.2.0-beta.2/gac-redux-0.2.0-beta.2-aarch64-apple-darwin.tar.gz"
-      sha256 "843cde0b0e41b6f92fa42a8e18c28f1ebcec19103712873e035d0221e988e8bd"
+      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.3.0/gac-redux-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c6ee7bd91c4ec56df6d1c80e90a581648d8d06794700b149d40ddd14417f85b0"
     end
     on_intel do
-      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.2.0-beta.2/gac-redux-0.2.0-beta.2-x86_64-apple-darwin.tar.gz"
-      sha256 "764dbd42fb4091e9f391ac557ebc16d2b83f89a953ff17939184dfeb7f78e8c1"
+      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.3.0/gac-redux-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fbe176b6988db778e91e4b5f67691e117fd676483fc263f5841a404dae457367"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.2.0-beta.2/gac-redux-0.2.0-beta.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f5e0cd4068e4ad6f04ff4a0b8471f8ecbc621156bbd989b5f997de78cd3b2251"
+      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.3.0/gac-redux-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d6a9df3a05b727b89f2fde1da3aed71dfecaa30e2e5972bc63dd0db32ed24a5d"
     end
     on_intel do
-      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.2.0-beta.2/gac-redux-0.2.0-beta.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "304632c83a8d8b0633f14af90bcd3dd367754d22cf8902b01ba6d2b79cbc208d"
+      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.3.0/gac-redux-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1580536b97d99f32baa8cd2f121ab11d621000ff1ccaf66e90b6f01b18697fc6"
     end
   end
 
