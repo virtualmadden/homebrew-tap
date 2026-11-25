@@ -1,28 +1,28 @@
 class GacRedux < Formula
   desc "Short-lived AWS credentials through IAM Identity Center"
   homepage "https://github.com/virtualmadden/gac-redux"
-  version "0.6.0"
+  version "0.6.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.6.0/gac-redux-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "878d776cc98ffddf02229d6f09c4f98099d6849686945ef418caa1834a390f00"
+      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.6.1/gac-redux-0.6.1-aarch64-apple-darwin.tar.gz"
+      sha256 "3641b37b3acf9c29eb3bec141b949e69ab6cf719d7ac967c1a2bbe1ed68d5c1e"
     end
     on_intel do
-      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.6.0/gac-redux-0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6c6e4fc353b3c9ce87c850b09affd7be19d84029f28d3214247b08e9cd5c8157"
+      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.6.1/gac-redux-0.6.1-x86_64-apple-darwin.tar.gz"
+      sha256 "4057216ae2dc1e701cae44a15c72f3edf27302574285e352fcff07bc5867a461"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.6.0/gac-redux-0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "39dc086e2ae87812df16ebaca543e2c5a2c50028897200e264f303de00a579b1"
+      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.6.1/gac-redux-0.6.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dc7f3fc9ad0949c54cbb74997eee56593a2120beeec2d682b4f465187f63dfbb"
     end
     on_intel do
-      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.6.0/gac-redux-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4492bd2c0da5bb8fce9ac26c9d1f84baec3a5f54f562169bb3f0089b0d1268c0"
+      url "https://github.com/virtualmadden/gac-redux/releases/download/v0.6.1/gac-redux-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "181060ab48fd47d6674a22c9d8fc254988f159cdc8a9be874c1bcd185f91c928"
     end
   end
 
